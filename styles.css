@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #785482, #7b6092, #7c6ca2, #7b79b1, #7a86c0, #6d92cd, #5d9fd6, #4babdd, #26b9da, #22c4d0, #48cebf, #72d6ab);
+    background-image: linear-gradient(to right, #F59115, #46332e, #333);
 
     font-family: 'Poppins', sans-serif;
     padding-top: 5em;
@@ -29,6 +29,15 @@ form {
     width: 100%;
     border: none;
     border-radius: 50px;
+    background-color: #F59115;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(to right, #F59115, #46332e, #333);
+    /* Apply animation */
 }
 
 .form-control {
@@ -41,6 +50,8 @@ form {
 h4 {
     font-size: 2rem !important;
     font-weight: 700;
+    color: #46332e;
+    /* Heading color */
 }
 
 .form-label {
@@ -51,6 +62,8 @@ h1 {
     margin-top: 20px;
     text-align: center;
     font-weight: 700;
+    color: white;
+    /* Heading color */
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,6 +72,10 @@ h1 {
     }
 }
 
+a.register-link {
+    color: #46332e;
+    /* Change text color to the desired color */
+}
 
 .line-1 {
     position: relative;
